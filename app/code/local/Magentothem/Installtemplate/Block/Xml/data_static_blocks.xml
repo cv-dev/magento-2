@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<ma_sahara_fashion14>
+    <blocks>
+        <block>
+            <title>Banner Static 1</title>
+            <identifier>home_banner_static_1</identifier>
+            <content>
+                      <![CDATA[
+							<div class="home-banner-static1 row">
+							<div class="ca-box ca-box1 col-sm-4 col-md-4 col-sms-12 col-smb-12">
+							<div class="box-content">
+							<div class="ca-img"><a href="#"><img src="{{media url="wysiwyg/img_banner01.jpg"}}" alt="" /></a></div>
+							</div>
+							</div>
+							<div class="ca-box ca-box2 col-sm-4 col-md-4 col-sms-12 col-smb-12">
+							<div class="box-content">
+							<div class="ca-img"><a href="#"><img src="{{media url="wysiwyg/img_banner02.jpg"}}" alt="" /></a></div>
+							</div>
+							</div>
+							<div class="ca-box ca-box3 col-sm-4 col-md-4 col-sms-12 col-smb-12">
+							<div class="box-content">
+							<div class="ca-img"><a href="#"><img src="{{media url="wysiwyg/img_banner03.jpg"}}" alt="" /></a></div>
+							</div>
+							</div>
+							</div>
+                        ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+				<div class="container">
+					<div class="container-inner">
+					<div class="footer-static-top">
+					<div class="row">
+					<div class="f-col f-col-1 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>ABOUT US</h3>
+					</div>
+					<div class="footer-static-content"><a class="logo-fashion" href=" #"><img src="{{media url="wysiwyg/logo_sahara.png"}}" alt="" /></a>
+					<p class="des">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas...</p>
+					</div>
+					</div>
+					<div class="f-col f-col-2 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>CONTACT US</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li><span class="fa fa-map-marker">&nbsp;</span>
+					<p>1234 Heaven Stress, Beverly Hill <span>OldYork- United State of Lorem</span></p>
+					</li>
+					<li><span class="fa fa-mobile">&nbsp;</span>
+					<p>(800) 0123 4567 890 <span>(800) 0987 654 321</span></p>
+					</li>
+					<li><span class="fa fa-envelope-o">&nbsp;</span>
+					<p>Support1@plazathemes.com<span>Support2@plazathemes.com</span></p>
+					</li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-3 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>LATEST TWEETS</h3>
+					</div>
+					<div class="footer-static-content">{{block type="core/template" after="-" name="lastesttweet" template="magentothem/lastesttweet/lastesttweet.phtml"}}</div>
+					</div>
+					<div class="f-col f-col-4 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>CUSTOM BLOCK</h3>
+					</div>
+					<div class="footer-static-content"><a class="static-block" href="#"><img src="{{media url="wysiwyg/img-static-block.png"}}" alt="" /></a></div>
+					</div>
+					</div>
+					</div>
+					<div class="footer-static-bottom">
+					<div class="row">
+					<div class="f-col f-col-5 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>OUR SERVICES</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Returns</a></li>
+					<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+					<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-6 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>our support</h3>
+					</div>
+					<div class="footer-static-content ">
+					<ul>
+					<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+					<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+					<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+					<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-7 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>MY ACCOUNT</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="customer/account/index"}}">My Account</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Returns</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Specials</a></li>
+					<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-8 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>information</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Delivery Information</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+					<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+					<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+					</ul>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+			<![CDATA[
+				<div class="banner-left hidden-xs"><a href="#"><img src="{{media url="wysiwyg/banner-left.jpg"}}" alt="" /></a></div>
+		    ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Links Company</title>
+            <identifier>footer_links_company</identifier>
+            <content>
+                <![CDATA[
+					<div class="links-company">
+					<ul>
+					<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+					<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+					<li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+					<li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+					<li class="last"><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+					</ul>
+					</div>
+                ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Footer Static Links</title>
+            <identifier>footer_static_links</identifier>
+            <content>
+                   <![CDATA[
+						<ul class="footer_links footer_payment">
+						<li><img src="{{media url="wysiwyg/paypal.png"}}" alt="" /></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_3</identifier>
+            <content>
+                   <![CDATA[
+						<div class="custom-menu-bottom">
+						<div class="custom-menu-bottom-inner">
+						<div class="row">
+						<div class="col-sm-6"><a href="#"><img src="{{media url="wysiwyg/img_menu_01.png"}}" alt="" /></a></div>
+						<div class="col-sm-6"><a href="#"><img src="{{media url="wysiwyg/images_sale.png"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Toplink Static</title>
+            <identifier>toplink_static</identifier>
+            <content>
+                   <![CDATA[
+					<div class="toplink-static clearfix">
+					<div class="contact-email pull-left"><em class="fa fa-envelope"></em>contact@plazathemes.com</div>
+					<div class="tell-phone pull-left"><em class="fa fa-phone"></em>(+800) 123 456 7890</div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block Group Modul</title>
+            <identifier>block_group</identifier>
+            <content>
+                   <![CDATA[
+						<div class="block-group">
+						<div class="container">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-xs-12 col-md-3 col-sm-6 col-sms-12 col-smb-12">{{block type="bestsellerproduct/bestsellerproduct" name="bestsellerproduct" template="magentothem/bestsellerproduct/bestsellerproduct.phtml"}}</div>
+						<div class="col-xs-12 col-md-9 col-sm-6 col-sms-12 col-smb-12">{{block type="newproductslider/newproductslider" name="newproductslider" template="magentothem/newproductslider/newproductslider.phtml"}}</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Bottom</title>
+            <identifier>banner_bottom</identifier>
+            <content>
+                   <![CDATA[
+						<div class="banner-bottom-content">{{block type="testimonial/sidebar" name="testimonial.sidebar" before="-"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Home New Static</title>
+            <identifier>home_new_static</identifier>
+            <content>
+                   <![CDATA[
+						<div class="home-new-static">
+						<div class="container">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Header Static</title>
+            <identifier>header_static</identifier>
+            <content>
+                   <![CDATA[
+						<div class="row">
+						<div class="f-col f-col-1 col-sm-4 col-md-4 col-sms-4 col-smb-12">
+						<div class="f-col-inner">
+						<div class="pull-left"><em class="shapes">&nbsp;</em><em class="fa fa-truck"></em></div>
+						<div class="media-body">
+						<h3>FREE SHIPPING</h3>
+						<p>Free shipping on oder over $99.00</p>
+						</div>
+						</div>
+						</div>
+						<div class="f-col f-col-2 col-sm-4 col-md-4 col-sms-4 col-smb-12">
+						<div class="f-col-inner">
+						<div class="pull-left"><em class="shapes">&nbsp;</em><em class="fa fa-usd"></em></div>
+						<div class="media-body">
+						<h3>MONEY BACK GUARANTEE</h3>
+						<p>30 days money back guarantee !</p>
+						</div>
+						</div>
+						</div>
+						<div class="f-col f-col-3 col-sm-4 col-md-4 col-sms-4 col-smb-12">
+						<div class="f-col-inner">
+						<div class="pull-left"><em class="shapes">&nbsp;</em><em class="fa fa-lock"></em></div>
+						<div class="media-body">
+						<h3>PAYMENT SECURED</h3>
+						<p>Secure your online store payment</p>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</ma_sahara_fashion14>
+
